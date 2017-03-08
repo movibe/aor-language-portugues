@@ -1,20 +1,20 @@
 module.exports = {
     aor: {
         action: {
-            delete: 'Eliminar',
-            show: 'Mostrar',
+            delete: 'Deletar',
+            show: 'Exibir',
             list: 'Listar',
-            save: 'Guardar',
-            create: 'Crear',
+            save: 'Salvar',
+            create: 'Novo',
             edit: 'Editar',
             cancel: 'Cancelar',
-            refresh: 'Actualizar',
-            add_filter: 'Añadir filtro',
-            remove_filter: 'Eliminar filtro',
+            refresh: 'Atualizar',
+            add_filter: 'Adicionar Filtro',
+            remove_filter: 'Cancelar filtro',
         },
         boolean: {
-            true: 'Si',
-            false: 'No',
+            true: 'Sim',
+            false: 'Não',
         },
         page: {
             list: 'Listar %{name}',
