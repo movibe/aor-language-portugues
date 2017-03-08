@@ -1,0 +1,63 @@
+module.exports = {
+    aor: {
+        action: {
+            delete: 'Eliminar',
+            show: 'Mostrar',
+            list: 'Listar',
+            save: 'Guardar',
+            create: 'Crear',
+            edit: 'Editar',
+            cancel: 'Cancelar',
+            refresh: 'Actualizar',
+            add_filter: 'Añadir filtro',
+            remove_filter: 'Eliminar filtro',
+        },
+        boolean: {
+            true: 'Si',
+            false: 'No',
+        },
+        page: {
+            list: 'Listar %{name}',
+            edit: '%{name} #%{id}',
+            show: '%{name} #%{id}',
+            create: 'Novo %{name}',
+            delete: 'Deletar %{name} #%{id}',
+        },
+        input: {
+            image: {
+                upload_several: 'Arraste alguns arquivos para fazer o upload ou clique para selecionar arquivo',
+                upload_single: 'Arraste um arquivo para upload ou clique em selecionar arquivo.',
+            },
+        },
+        message: {
+            yes: 'Sim',
+            no: 'Não',
+            are_you_sure: 'Tem certeza?',
+            about: 'Sobre',
+        },
+        navigation: {
+            page_out_of_boundaries: 'Página %{page} fora o limite',
+            page_out_from_end: 'Não é possível ir após a última página',
+            page_out_from_begin: 'Não é possível ir antes da primeira página',
+            page_range_info: '%{offsetBegin}-%{offsetEnd} de %{total}',
+            next: 'Próximo',
+            prev: 'Anterior',
+        },
+        auth: {
+            username: 'Usuário',
+            password: 'Senha',
+            sign_in: 'Logar',
+            sign_in_error: 'Erro na autenticação, tente novamente.',
+            logout: 'Sair',
+        },
+        notification: {
+            updated: 'Item atualizado com sucesso',
+            created: 'Item criado com sucesso',
+            deleted: 'Item removido com sucesso!',
+            item_doesnt_exist: 'Esse item não existe mais',
+        },
+        validation: {
+            required: 'Obrigatório',
+        },
+    },
+};
