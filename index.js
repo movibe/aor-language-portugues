@@ -37,6 +37,7 @@ module.exports = {
             about: 'Sobre',
         },
         navigation: {
+            no_results: 'Nenhum resultado encontrado',
             page_out_of_boundaries: 'Página %{page} fora o limite',
             page_out_from_end: 'Não é possível ir após a última página',
             page_out_from_begin: 'Não é possível ir antes da primeira página',
@@ -57,9 +58,16 @@ module.exports = {
             created: 'Item criado com sucesso',
             deleted: 'Item removido com sucesso!',
             item_doesnt_exist: 'Esse item não existe mais',
+            http_error: 'Erro na comunicação com servidor',
         },
         validation: {
             required: 'Obrigatório',
+            minLength: 'Deve ser ter no mínimo %{min} caracteres',
+            maxLength: 'Deve ter no máximo %{max} caracteres',
+            minValue: 'Deve ser %{min} ou maior',
+            maxValue: 'Deve ser %{max} ou menor',
+            number: 'Deve ser um número',
+            email: 'Deve ser um email válido',
         },
     },
 };
