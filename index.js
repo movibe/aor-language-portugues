@@ -43,6 +43,7 @@ module.exports = {
             page_range_info: '%{offsetBegin}-%{offsetEnd} de %{total}',
             next: 'Próximo',
             prev: 'Anterior',
+            no_results: 'Nenhum resultado encontrado'
         },
         auth: {
             username: 'Usuário',

@@ -1,7 +1,7 @@
 {
   "name": "aor-language-portugues",
   "description": "Portugues translations for admin-on-rest, the frontend framework for building admin applications on top of REST services",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
